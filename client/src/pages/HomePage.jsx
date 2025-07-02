@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import SideBar from '../components/SideBar'
 import ChatContainer from '../components/ChatContainer'
-import RightSidebar from '../components/RightSideBar'
+import RightSideBar from '../components/RightSideBar'
 import { ChatContext } from '../../context/ChatContext'
 
 const HomePage = () => {
@@ -17,7 +17,7 @@ const HomePage = () => {
         }`}>
         <SideBar />
         <ChatContainer />
-        <RightSidebar />
+        <RightSideBar />
       </div>
     </div>
   )
